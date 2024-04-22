@@ -257,7 +257,7 @@ form .btn2{
 nav .bx{
     display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 875px) {
     #header {
         background-image: url(imgs/Design\ sans\ titre.png);
     }
