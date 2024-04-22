@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 800px;
-    background-image: url(imgs/bck_final.png);
+    background-image: url(bck_final.png);
     background-size: cover;
     background-position: center ;
 }
