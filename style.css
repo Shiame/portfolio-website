@@ -259,7 +259,7 @@ nav .bx{
 }
 @media only screen and (max-width: 875px) {
     #header {
-        background-image: url(imgs/Design\ sans\ titre.png);
+        background-image: url(Design\ sans\ titre.png);
     }
     .header-text{
         margin-top: 60%;
