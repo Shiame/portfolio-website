@@ -16,6 +16,7 @@
                 <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class='bx bx-x' onclick="closemenu()"></i>
@@ -24,7 +25,7 @@
             </nav>
             <div class="header-text">
                 <p>Software Engineering Student</p>
-                <h1>Hi, I'm <span>Chaymae</span><br>Bouazza  </h1>
+                <h1>Hi, I'm <span>Chaymae</span><br>Bouazza</h1>
             </div>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/chaymae-bouazza-2aab4b265/"><i class='bx bxl-linkedin-square' id="icon"></i></a>
@@ -35,6 +36,7 @@
         </div>
     </div>
 
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -43,79 +45,49 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Étudiante en deuxième année à l’ENSIAS, spécialisée en Génie Logiciel. Je suis motivée, proactive, et constamment en quête de nouveaux défis dans le domaine technologique. Forte de mes expériences en développement web et mobile, j’ai participé à la réalisation de projets innovants, notamment dans l’automatisation, le NLP et le développement full-stack. Je suis également impliquée dans des activités extra-scolaires à responsabilités, qui renforcent mes capacités d’organisation, de leadership et de communication.</p>
-
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
-                    </div>
-
-                    <div class="tab-content active-tab" id='skills'>
-                        <ul>
-                            <li><span>Langages</span><br>Java, JavaScript, Python, C, PHP</li>
-                            <li><span>Frameworks / Libraries</span><br>Spring Boot, Angular.js, React.js, Node.js, Symfony, Django, Express.js</li>
-                            <li><span>Base de Données</span><br>Oracle DB, PostgreSQL, MongoDB, MySQL, PL/SQL</li>
-                            <li><span>Outils Dev</span><br>Git/GitHub, Docker, Postman, Linux</li>
-                            <li><span>Modélisation</span><br>UML, Merise</li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-content" id='projects'>
-                        <ul>
-                            <li><span>Observatoire pour la gestion des plaintes</span><br>
-                                <ul>
-                                    <li><strong>Technos :</strong> Spring Boot, Angular.js, React Native, PostgreSQL, MongoDB, spaCy, Docker, Kubernetes</li>
-                                    <li><strong>Description :</strong> Signalement d’anomalies urbaines via app mobile. Dashboard interactif, NLP pour classification automatique, sécurité via JWT/OAuth2</li>
-                                </ul>
-                            </li>
-                            <li><span>Système de Diagnostic & Réparation Véhicules</span><br>
-                                <ul>
-                                    <li><strong>Technos :</strong> Spring Boot, JWT, JavaScript, MySQL, REST APIs</li>
-                                    <li><strong>Description :</strong> Automatisation des diagnostics/interventions pour garages automobiles</li>
-                                </ul>
-                            </li>
-                            <li><span>Application Web de Gestion de Stages</span><br>
-                                <ul>
-                                    <li><strong>Technos :</strong> React.js, Node.js, Express.js, Oracle DB</li>
-                                    <li><strong>Description :</strong> Application full-stack avec authentification sécurisée et requêtes optimisées</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-content" id='education'>
-                        <ul>
-                            <li><span> <strong>2023 - Present</strong></span><br> Engineer's degree - Software Engineering Student<ul><li class="under">ENSIAS, Rabat - Morocco</li></ul></li>
-                            <li><span> <strong>2021 - 2023</strong></span><br> Classes préparatoires Maths/Physique<ul><li class="under">CPGE Omar Ibn Abdelaziz, Oujda - Morocco</li></ul></li>
-                            <li><span> <strong>2020 - 2021</strong></span><br> Baccalaureate in Mathematical Science<ul><li class="under">Jaber Ibn Al Hayan High School, Berkane - Morocco</li></ul></li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-content" id='certification'>
-                        <ul>
-                            <li><span><strong>IBM</strong></span>
-                                <ul>
-                                    <li class="under">AI Analyst – 2025</li>
-                                    <li class="under">Front-End Developer</li>
-                                    <li class="under">Getting started with Git & GitHub</li>
-                                    <li class="under">Developing Front-End Apps with React</li>
-                                </ul>
-                            </li>
-                            <li><span><strong>GOOGLE</strong></span>
-                                <ul><li class="under">Les outils du métier : Linux et SQL – 2024</li></ul>
-                            </li>
-                            <li><span><strong>UDEMY</strong></span>
-                                <ul><li class="under">Mastering Linux</li></ul>
-                            </li>
-                        </ul>
-                    </div>
+                    <p>Étudiante en deuxième année à l’ENSIAS, spécialisée en Génie Logiciel. Je suis motivée, proactive, et constamment en quête de nouveaux défis dans le domaine technologique. Forte de mes expériences en développement web et mobile, j’ai participé à la réalisation de projets innovants. Je suis également impliquée dans des activités extra-scolaires à responsabilités, qui renforcent mes capacités d’organisation, de leadership et de communication.</p>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Experience Section -->
+    <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">Experiences</h1>
+            <ul>
+                <li><strong>Ministère de l’Agriculture - Rabat</strong> (Juillet - Août 2024)<br>Développement d’un portail web pour la DSI, gestion sécurisée de fichiers.</li>
+                <li><strong>ForNet - Rabat</strong> (Août - Septembre 2024)<br>Application web sous Symfony pour automatiser les réponses aux appels d’offres.</li>
+            </ul>
+
+            <h2 class="sub-title">Roles & Responsibilities</h2>
+            <ul>
+                <li>Secrétaire Générale – Association des élèves ingénieurs</li>
+                <li>Cheffe de Projet – Junior Entreprise ENSIAS</li>
+            </ul>
+
+            <h2 class="sub-title">Distinctions</h2>
+            <ul>
+                <li>À compléter : Mention d’honneur, concours ou prix obtenus</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <ul>
+                <li><span>Langages</span><br>Java, JavaScript, Python, C, PHP</li>
+                <li><span>Frameworks / Libraries</span><br>Spring Boot, Angular.js, React.js, Node.js, Symfony, Django, Express.js</li>
+                <li><span>Base de Données</span><br>Oracle DB, PostgreSQL, MongoDB, MySQL, PL/SQL</li>
+                <li><span>Outils Dev</span><br>Git/GitHub, Docker, Postman, Linux</li>
+                <li><span>Modélisation</span><br>UML, Merise</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -129,7 +101,7 @@
                         <a href="https://www.instagram.com/chaymae.x_bz/"><i class='bx bxl-instagram' id="icon"></i></a>
                         <a href="https://www.facebook.com/chaimae.bouazza.969"><i class='bx bxl-facebook' id="icon"></i></a>
                     </div>
-                    <a href="cv_français(1).pdf" download class="btn btn2">Download CV</a>
+                    <a href="cv_français (1).pdf.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form action="https://api.web3forms.com/submit" method="POST">
@@ -143,7 +115,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p><strong>Copyright &copy Chaymae, Made by ME</strong></p>
+            <p><strong>Copyright &copy; Chaymae, Made by ME</strong></p>
         </div>
     </div>
 
@@ -161,14 +133,13 @@
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
-    </script>
-    <script>
+
         var sidemenu = document.getElementById("sidemenu");
         function openmenu() {
             sidemenu.style.right = "0";
         }
         function closemenu() {
-            sidemenu.style.right = "-200px"
+            sidemenu.style.right = "-200px";
         }
     </script>
 </body>
