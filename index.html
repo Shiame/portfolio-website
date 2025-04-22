@@ -1,146 +1,227 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="logo.png">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="logo.png" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class='bx bx-x' onclick="closemenu()"></i>
-                </ul>
-                <i class='bx bx-menu' onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Software Engineering Student</p>
-                <h1>Hi, I'm <span>Chaymae</span><br>Bouazza</h1>
-            </div>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/chaymae-bouazza-2aab4b265/"><i class='bx bxl-linkedin-square' id="icon"></i></a>
-                <a href="https://github.com/Shiame"><i class='bx bxl-github' id="icon"></i></a>
-                <a href="https://www.instagram.com/chaymae.x_bz/"><i class='bx bxl-instagram' id="icon"></i></a>
-                <a href="https://www.facebook.com/chaimae.bouazza.969"><i class='bx bxl-facebook' id="icon"></i></a>
-            </div>
-        </div>
-    </div>
-
-    <!-- About Section -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="photo2.png">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="logo.png">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class='bx bx-x' onclick="closemenu()"></i>
+                        
+                    </ul>
+                    <i class='bx bx-menu' onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineering Student</p>
+                    <h1>Hi, I'm <span>Chaymae</span><br>Bouazza  </h1>
                 </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Étudiante en deuxième année à l’ENSIAS, spécialisée en Génie Logiciel. Je suis motivée, proactive, et constamment en quête de nouveaux défis dans le domaine technologique. Forte de mes expériences en développement web et mobile, j’ai participé à la réalisation de projets innovants. Je suis également impliquée dans des activités extra-scolaires à responsabilités, qui renforcent mes capacités d’organisation, de leadership et de communication.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/chaymae-bouazza-2aab4b265/"><i class='bx bxl-linkedin-square' id="icon"></i></a>
+                    <a href="https://github.com/Shiame"><i class='bx bxl-github' id="icon"></i></a>
+                    <a href="https://www.instagram.com/chaymae.x_bz/"><i class='bx bxl-instagram' id="icon"></i></a>
+                    <a href="https://www.facebook.com/chaimae.bouazza.969"><i class='bx bxl-facebook' id="icon"></i></a>
+
                 </div>
             </div>
+
         </div>
-    </div>
-
-    <!-- Experience Section -->
-    <div id="experience">
-        <div class="container">
-            <h1 class="sub-title">Experiences</h1>
-            <ul>
-                <li><strong>Ministère de l’Agriculture - Rabat</strong> (Juillet - Août 2024)<br>Développement d’un portail web pour la DSI, gestion sécurisée de fichiers.</li>
-                <li><strong>ForNet - Rabat</strong> (Août - Septembre 2024)<br>Application web sous Symfony pour automatiser les réponses aux appels d’offres.</li>
-            </ul>
-
-            <h2 class="sub-title">Roles & Responsibilities</h2>
-            <ul>
-                <li>Secrétaire Générale – Association des élèves ingénieurs</li>
-                <li>Cheffe de Projet – Junior Entreprise ENSIAS</li>
-            </ul>
-
-            <h2 class="sub-title">Distinctions</h2>
-            <ul>
-                <li>À compléter : Mention d’honneur, concours ou prix obtenus</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Skills Section -->
-    <div id="skills">
-        <div class="container">
-            <h1 class="sub-title">Skills</h1>
-            <ul>
-                <li><span>Langages</span><br>Java, JavaScript, Python, C, PHP</li>
-                <li><span>Frameworks / Libraries</span><br>Spring Boot, Angular.js, React.js, Node.js, Symfony, Django, Express.js</li>
-                <li><span>Base de Données</span><br>Oracle DB, PostgreSQL, MongoDB, MySQL, PL/SQL</li>
-                <li><span>Outils Dev</span><br>Git/GitHub, Docker, Postman, Linux</li>
-                <li><span>Modélisation</span><br>UML, Merise</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class='bx bxl-gmail'></i>bouazzachaimae81@gmail.com</p>
-                    <p><i class='bx bxs-phone'></i>+212631511663</p>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/chaymae-bouazza-2aab4b265/"><i class='bx bxl-linkedin-square' id="icon"></i></a>
-                        <a href="https://github.com/Shiame"><i class='bx bxl-github' id="icon"></i></a>
-                        <a href="https://www.instagram.com/chaymae.x_bz/"><i class='bx bxl-instagram' id="icon"></i></a>
-                        <a href="https://www.facebook.com/chaimae.bouazza.969"><i class='bx bxl-facebook' id="icon"></i></a>
+        <!-----------------About------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="photo2.png">
                     </div>
-                    <a href="cv_français (1).pdf.pdf" download class="btn btn2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="3fd01c15-a5b6-4d4f-839c-95dc0e89b4c5">
-                        <input type="text" id="name" name="Name" placeholder="Your Name">
-                        <input type="email" id="email" name="Email" placeholder="xyz@gmail.com" required>
-                        <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Étudiante en deuxième année à l’ENSIAS, spécialisée en Génie Logiciel. Je suis motivée, proactive, et constamment en quête de nouveaux défis dans le domaine technologique. Forte de mes expériences en développement web et mobile, j’ai participé à la réalisation de projets innovants. Je suis également impliquée dans des activités extra-scolaires à responsabilités, qui renforcent mes capacités d’organisation, de leadership et de communication.</p>
+
+
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Expériences</p>
+                            <p class="tab-links" onclick="opentab('roles')">Roles</p>
+                            <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                         </div>  
+
+                         <div class="tab-content" id="experience">
+                            <ul>
+                                <li><strong>Ministère de l’Agriculture, du Développement Rural, des Eaux et Forêts - Rabat</strong> (Juillet - Août 2024)<br>
+                                    Réalisation d’un portail web centralisant les services de la DSI. Mise en œuvre d’une interface utilisateur intuitive, sécurisation de l’accès aux fichiers partagés via authentification avancée.
+                                </li>
+                                <li><strong>ForNet - Rabat</strong> (Août - Septembre 2024)<br>
+                                    Conception d’une application Symfony pour automatiser le traitement des appels d’offres. Personnalisation d’un template Bootstrap et déploiement d’un workflow optimisé pour la saisie des réponses.
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-content" id="projects">
+                            <ul>
+                                <li><span>Observatoire de Gestion des Plaintes (Projet en cours)</span>
+                                    <ul>
+                                        <li><strong>Technologies :</strong> Spring Boot, Angular.js, React Native, PostgreSQL, MongoDB, spaCy, Docker, Kubernetes</li>
+                                        <li><strong>Description :</strong> Plateforme citoyenne de signalement des anomalies urbaines avec visualisations dynamiques, NLP pour classification automatique, déploiement sécurisé.</li>
+                                    </ul>
+                                </li>
+                                <li><span>Système de Diagnostic & Réparation de Véhicules</span>
+                                    <ul>
+                                        <li><strong>Technologies :</strong> Spring Boot, JWT, JavaScript, MySQL</li>
+                                        <li><strong>Description :</strong> Application web automatisant les diagnostics techniques en garage, sécurisation par jetons JWT.</li>
+                                    </ul>
+                                </li>
+                                <li><span>Application de Gestion des Stages</span>
+                                    <ul>
+                                        <li><strong>Technologies :</strong> React.js, Node.js, Express.js, Oracle Database</li>
+                                        <li><strong>Description :</strong> Outil full-stack pour le suivi des stages étudiants, avec authentification sécurisée et optimisation des requêtes Oracle.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-content active-tab" id='skills'>
+                            <ul>
+                                <li><span>Langages</span><br>Java, Python, JavaScript, C, PHP</li>
+                                <li><span>Développement Web</span><br>Spring Boot, React.js, Angular.js, Node.js, Symfony, Django, HTML/CSS, Bootstrap</li>
+                                <li><span>Bases de données</span><br>PostgreSQL, Oracle Database, MySQL, MongoDB, PL/SQL</li>
+                                <li><span>Outils</span><br>Docker, Git/GitHub, Linux, Postman</li>
+                                <li><span>Modélisation</span><br>UML, Merise</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-content" id="certification">
+                            <ul>
+                                <li><span><strong>IBM</strong></span>
+                                    <ul>
+                                        <li class="under">AI Analyst – 2025</li>
+                                        <li class="under">Front-End Developer</li>
+                                        <li class="under">Getting Started with Git & GitHub</li>
+                                        <li class="under">Developing Front-End Apps with React</li>
+                                    </ul>
+                                </li>
+                                <li><span><strong>GOOGLE</strong></span>
+                                    <ul><li class="under">Les outils du métier : Linux et SQL – 2024</li></ul>
+                                </li>
+                                <li><span><strong>UDEMY</strong></span>
+                                    <ul><li class="under">Mastering Linux</li></ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-content" id="roles">
+                            <ul>
+                                <li>Secrétaire Générale – Association des élèves ingénieurs de l’ENSIAS</li>
+                                <li>Cheffe de Projet – Junior Entreprise ENSIAS</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-content" id='education'>
+                            <ul>
+                                <li><span><strong>2023 - Présent</strong></span><br>Cycle d’ingénieur – Génie Logiciel<ul><li class="under">ENSIAS – École Nationale Supérieure d’Informatique et d’Analyse des Systèmes, Rabat</li></ul></li>
+                                <li><span><strong>2021 - 2023</strong></span><br>Classes Préparatoires – Maths/Physique<ul><li class="under">CPGE Omar Ibn Abdelaziz, Oujda</li></ul></li>
+                                <li><span><strong>2020 - 2021</strong></span><br>Baccalauréat – Sciences Mathématiques<ul><li class="under">Lycée Jaber Ibn Al Hayan, Berkane</li></ul></li>
+                            </ul>
+                        </div>
+                        
+                     </div>
                 </div>
             </div>
+
         </div>
-        <div class="copyright">
-            <p><strong>Copyright &copy; Chaymae, Made by ME</strong></p>
+
+        <!------------Contact------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class='bx bxl-gmail' ></i>bouazzachaimae81@gmail.com</p>
+                        <p><i class='bx bxs-phone' ></i>+212631511663</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/chaymae-bouazza-2aab4b265/"><i class='bx bxl-linkedin-square' id="icon"></i></a>
+                            <a href="https://github.com/Shiame"><i class='bx bxl-github' id="icon"></i></a>
+                            <a href="https://www.instagram.com/chaymae.x_bz/"><i class='bx bxl-instagram' id="icon"></i></a>
+                            <a href="https://www.facebook.com/chaimae.bouazza.969"><i class='bx bxl-facebook' id="icon" ></i></a>
+                        </div>
+                        <a href="BOUAZZA Chaymae (7).pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="https://api.web3forms.com/submit" method="POST" >
+                            <input type="hidden" name="access_key" value="3fd01c15-a5b6-4d4f-839c-95dc0e89b4c5">
+                            <input type="text"  id="name" name="Name" placeholder="Your Name" >
+                            <input type="email" id="email"  name="Email" placeholder="xyz@gmail.com"  required>
+                            <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><strong>Copyright &copy Chaymae, Made by ME</strong></p>
+
+            </div>
+
+
+
+
+
         </div>
-    </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.querySelectorAll(".tab-content");
 
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.querySelectorAll(".tab-content");
-
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
             }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
+            
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
             }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
+            function closemenu(){
+                sidemenu.style.right="-200px"
+            }
+        </script>
+       <!-- <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwW_eHP7Ulyk5O7xhs1saj-j2IvuKz7jNTPU91ZCpN0qAaaVAxcMeTTnzerOmpy4rrG4w/exec';
+            const form = document.forms['submit-to-google-sheet'];
+    
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error));
 
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-    </script>
-</body>
-</html>
+            });
+        </script>-->
+        
+
+
+    
+
+
+    </body>
+    </html>
